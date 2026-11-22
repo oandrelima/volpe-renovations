@@ -1,0 +1,301 @@
+export const contact = {
+  phone: '(813) 650-6706',
+  phoneHref: 'tel:+18136506706',
+  smsHref: 'sms:+18136506706',
+  whatsappHref: 'https://wa.me/18136506706',
+  email: 'groupvolpe@gmail.com',
+  emailHref: 'mailto:groupvolpe@gmail.com',
+  location: 'Tampa Bay Area, FL',
+  hours: 'Mon – Sat · 8:00 AM – 6:00 PM',
+};
+
+export const social = {
+  instagram: 'https://www.instagram.com/volperenovationsco/',
+  facebook: 'https://www.facebook.com/',
+  googleReviews: 'https://www.google.com/maps/search/?api=1&query=Volpe%20Renovations%20Co.%20Spring%20Hill%20FL',
+};
+
+export const services = [
+  {
+    number: '01',
+    iconKey: 'bathrooms',
+    title: 'Complete Bathroom Remodeling',
+    text: 'Walk-in tile showers, freestanding tubs, double vanities, and spa-grade finishes crafted with lasting waterproofing.',
+    href: '/services/complete-bathroom-remodeling/',
+    image: '/assets/services/bathroom-preview.webp',
+    imageAlt: 'Luxury spa-inspired bathroom renovation with walk-in glass shower and double vanity',
+    featured: true,
+    tag: 'Our signature service',
+    highlights: [
+      'Zero-leak waterproofing & custom curbless or framed showers',
+      'Large-format porcelain, marble & mosaic tile setting',
+      'Double vanities, backlit mirrors & brushed brass fixtures',
+    ],
+  },
+  {
+    number: '02',
+    iconKey: 'kitchens',
+    title: 'Kitchen Remodeling',
+    text: 'The heart of the home. Custom cabinetry, stone countertops, islands, lighting, and thoughtful layouts built around your family.',
+    href: '/services/kitchen-remodeling/',
+    image: '/assets/services/kitchen-preview.webp',
+    imageAlt: 'Custom modern kitchen renovation with deep green cabinetry and quartz island',
+    tag: 'The heart of the home',
+    highlights: [
+      'Custom & semi-custom shaker or slab cabinetry',
+      'Quartz, granite & natural stone waterfall islands',
+      'Layout reconfiguration, lighting & hardware',
+    ],
+  },
+  {
+    number: '03',
+    iconKey: 'flooring',
+    title: 'Tile + Flooring',
+    text: 'The foundation of every room. Precision porcelain tile, luxury vinyl plank, and wide-plank hardwood installed with clean lines.',
+    href: '/services/tile-and-flooring/',
+    image: '/assets/services/full-gallery-2.webp',
+    imageAlt: 'Wide-plank oak flooring and custom millwork in a renovated Florida home',
+    tag: 'The foundation of every room',
+    highlights: [
+      'Porcelain, ceramic & natural stone floor tile',
+      'Luxury vinyl plank (LVP) & engineered hardwood',
+      'Subfloor leveling, moisture barriers & baseboards',
+    ],
+  },
+  {
+    number: '04',
+    iconKey: 'painting',
+    title: 'Interior Painting',
+    text: 'Color and finish. Crisp cut lines, smooth walls, trim, doors, and ceilings that brighten and unify your entire interior.',
+    href: '/services/interior-painting/',
+    image: '/assets/services/full-renovation-preview.webp',
+    imageAlt: 'Freshly painted open-concept living and dining room with crisp white trim',
+    tag: 'Color and finish',
+    highlights: [
+      'Thorough surface prep, caulking & sanding',
+      'Walls, ceilings, doors, baseboards & crown molding',
+      'Low-VOC, durable premium interior coatings',
+    ],
+  },
+  {
+    number: '05',
+    iconKey: 'drywall',
+    title: 'Drywall + Finishes',
+    text: 'Smooth, seamless walls. Level-4 and Level-5 drywall hanging, taping, skim coating, and texture matching.',
+    href: '/services/drywall-and-finishes/',
+    image: '/assets/services/full-renovation-preview.webp',
+    imageAlt: 'Smooth, seamless drywall and architectural trim finishes in a modern living room',
+    tag: 'Smooth, seamless walls',
+    highlights: [
+      'New drywall installation, framing & patching',
+      'Skim coating & smooth modern wall finishes',
+      'Clean architectural trim, casing & finish carpentry',
+    ],
+  },
+  {
+    number: '06',
+    iconKey: 'backsplashes',
+    title: 'Backsplashes',
+    text: 'Detail that defines. Precision tile backsplashes for kitchens, wet bars, and vanities with tight grout joints and clean edges.',
+    href: '/services/backsplashes/',
+    image: '/assets/services/kitchen-gallery-2.webp',
+    imageAlt: 'Custom marble subway tile backsplash with brass pot filler and wood range hood',
+    tag: 'Detail that defines',
+    highlights: [
+      'Subway, herringbone, mosaic & slab backsplashes',
+      'Full-height range hood & vanity feature walls',
+      'Clean metal edge profiles & sealed grout',
+    ],
+  },
+  {
+    number: '07',
+    iconKey: 'accent-walls',
+    title: 'Accent Walls',
+    text: 'Walls with presence. Custom board-and-batten, wainscoting, shiplap, and architectural feature walls tailored to your space.',
+    href: '/services/accent-walls/',
+    image: '/assets/services/full-gallery-2.webp',
+    imageAlt: 'Custom architectural wainscot and accent wall paneling in a renovated entryway',
+    tag: 'Walls with presence',
+    highlights: [
+      'Board-and-batten, picture-frame & slat accent walls',
+      'Wainscoting, shiplap & fireplace feature surrounds',
+      'Integrated lighting, floating shelves & custom paint',
+    ],
+  },
+];
+
+export const faqs = [
+  {
+    question: 'What types of renovation projects do you specialize in?',
+    answer: 'We specialize in complete bathroom remodeling, kitchen remodeling, tile & flooring, interior painting, drywall & finishes, backsplashes, and custom accent walls across the Tampa Bay area.',
+  },
+  {
+    question: 'What areas across Tampa Bay do you serve?',
+    answer: 'We serve homeowners across Hillsborough, Hernando, Pasco, and Pinellas Counties—including Tampa, Spring Hill, Brandon, Riverview, Wesley Chapel, Brooksville, Weeki Wachee, Land O\' Lakes, and nearby communities.',
+  },
+  {
+    question: 'How does your estimate and design process work?',
+    answer: 'Start by reaching out via text, WhatsApp, or email. We schedule an on-site walkthrough anywhere in the Tampa Bay area, review your layout and material goals, and deliver a clear, itemized proposal before any work begins.',
+  },
+  {
+    question: 'Do you handle permits and inspections?',
+    answer: 'Yes. For projects involving structural changes, plumbing, or electrical updates, we coordinate the required local permitting and inspections so your renovation is completed properly.',
+  },
+  {
+    question: 'Can we bundle multiple services like bathrooms, flooring, and painting?',
+    answer: 'Absolutely. Many Tampa Bay homeowners combine complete bathroom remodeling with new tile & flooring, drywall finishes, and interior painting for a cohesive, turnkey transformation.',
+  },
+];
+
+export const servicePages = {
+  'complete-bathroom-remodeling': {
+    shortTitle: 'Complete Bathroom Remodeling',
+    title: 'Complete Bathroom Remodeling in Tampa Bay, FL',
+    description: 'Our signature service across the Tampa Bay area. Walk-in showers, waterproofing, custom vanities, and tile work by Volpe Renovations Co.',
+    eyebrow: '01 · Our signature service',
+    intro: 'Calm, modern retreats built with zero-leak waterproofing, precision tile work, and custom vanities.',
+    details: 'Great bathrooms are defined by what happens behind the tile. We use proven waterproofing membranes, properly sloped shower pans, and laser-aligned tile layouts so your space lasts for decades.',
+    bullets: [
+      'Custom walk-in showers & waterproofing',
+      'Porcelain, marble & mosaic tile setting',
+      'Single & double vanities with stone tops',
+      'Freestanding tubs, niches & fixtures',
+    ],
+    gallery: [
+      { src: '/assets/services/bathroom-preview.webp', alt: 'Frameless glass walk-in shower and double oak vanity', caption: 'Primary Bath & Double Vanity' },
+      { src: '/assets/services/bathroom-gallery-2.webp', alt: 'Freestanding soaking tub with brushed gold filler and marble tile', caption: 'Freestanding Soaking Tub' },
+      { src: '/assets/services/full-renovation-preview.webp', alt: 'Coordinated interior millwork and flooring transition', caption: 'Suite Flooring & Trim Integration' },
+    ],
+  },
+  'kitchen-remodeling': {
+    shortTitle: 'Kitchen Remodeling',
+    title: 'Kitchen Remodeling in Tampa Bay, FL',
+    description: 'The heart of the home. Custom cabinetry, stone countertops, islands, and lighting across Tampa Bay, FL by Volpe Renovations Co.',
+    eyebrow: '02 · The heart of the home',
+    intro: 'Functional, timeless kitchens designed around custom cabinetry, stone countertops, and thoughtful lighting.',
+    details: 'From opening pass-through walls to installing soft-close cabinetry, under-cabinet lighting, and statement islands, we manage every trade in sequence so your kitchen stays on schedule.',
+    bullets: [
+      'Custom & semi-custom cabinetry',
+      'Quartz, granite & natural stone tops',
+      'Kitchen islands & layout updates',
+      'Backsplashes, lighting & fixtures',
+    ],
+    gallery: [
+      { src: '/assets/services/kitchen-preview.webp', alt: 'Custom green shaker cabinetry and waterfall quartz island', caption: 'Custom Shaker Cabinetry & Island' },
+      { src: '/assets/brand/volpe-hero.webp', alt: 'Open-concept kitchen remodel with brass pendant lighting', caption: 'Open-Concept Kitchen & Dining' },
+      { src: '/assets/services/kitchen-gallery-2.webp', alt: 'Custom range hood, marble backsplash, and brass pot filler', caption: 'Range Hood & Marble Backsplash' },
+    ],
+  },
+  'tile-and-flooring': {
+    shortTitle: 'Tile + Flooring',
+    title: 'Tile + Flooring in Tampa Bay, FL',
+    description: 'The foundation of every room. Porcelain tile, luxury vinyl plank, and hardwood flooring installation across Tampa Bay, FL.',
+    eyebrow: '03 · The foundation of every room',
+    intro: 'Precision porcelain tile, luxury vinyl plank, and hardwood installed over properly leveled subfloors.',
+    details: 'Whether replacing carpet with waterproof LVP or laying large-format rectified porcelain across your main living areas, clean prep and tight transitions define the finish.',
+    bullets: [
+      'Large-format porcelain & ceramic tile',
+      'Luxury vinyl plank (LVP) & hardwood',
+      'Subfloor leveling & moisture barriers',
+      'Baseboards & clean room transitions',
+    ],
+    gallery: [
+      { src: '/assets/services/full-gallery-2.webp', alt: 'Wide-plank natural oak flooring in renovated hallway', caption: 'Wide-Plank Oak Flooring' },
+      { src: '/assets/services/full-renovation-preview.webp', alt: 'Open-concept living space with seamless flooring', caption: 'Seamless Main-Level Flooring' },
+      { src: '/assets/services/bathroom-preview.webp', alt: 'Large-format porcelain bathroom floor and shower tile', caption: 'Porcelain Tile Setting' },
+    ],
+  },
+  'interior-painting': {
+    shortTitle: 'Interior Painting',
+    title: 'Interior Painting in Tampa Bay, FL',
+    description: 'Color and finish. Professional interior painting for walls, ceilings, trim, and doors across Tampa Bay, FL by Volpe Renovations Co.',
+    eyebrow: '04 · Color and finish',
+    intro: 'Crisp cut lines, smooth walls, and durable low-VOC coatings that brighten and unify your entire interior.',
+    details: 'We protect your furniture and floors, prep every wall and trim joint thoroughly, and apply smooth, even coats across walls, ceilings, doors, and cabinetry.',
+    bullets: [
+      'Walls, ceilings & open foyers',
+      'Doors, baseboards & crown molding',
+      'Drywall patching, sanding & caulking',
+      'Washable, low-VOC premium coatings',
+    ],
+    gallery: [
+      { src: '/assets/services/full-renovation-preview.webp', alt: 'Freshly painted open living room with white trim', caption: 'Whole-Home Interior Painting' },
+      { src: '/assets/services/full-gallery-2.webp', alt: 'Crisp white wainscoting and matte black doors', caption: 'Doors, Wainscoting & Trim' },
+      { src: '/assets/brand/volpe-hero.webp', alt: 'Painted kitchen and dining space with natural light', caption: 'Kitchen & Dining Finish' },
+    ],
+  },
+  'drywall-and-finishes': {
+    shortTitle: 'Drywall + Finishes',
+    title: 'Drywall + Finishes in Tampa Bay, FL',
+    description: 'Smooth, seamless walls. Drywall installation, repair, skim coating, and finish carpentry across Tampa Bay, FL.',
+    eyebrow: '05 · Smooth, seamless walls',
+    intro: 'Flat, seamless drywall hanging, skim coating, and architectural trim ready for a flawless final paint coat.',
+    details: 'Whether removing outdated popcorn ceilings, closing a doorway, or finishing a newly framed open layout, we deliver clean Level-4 and Level-5 wall surfaces.',
+    bullets: [
+      'Drywall hanging & Level-4/5 finishing',
+      'Popcorn ceiling removal & skim coating',
+      'Wall repairs & texture matching',
+      'Baseboards, casing & finish carpentry',
+    ],
+    gallery: [
+      { src: '/assets/services/full-renovation-preview.webp', alt: 'Smooth walls and clean architectural ceiling finishes', caption: 'Smooth Wall & Ceiling Finish' },
+      { src: '/assets/services/full-gallery-2.webp', alt: 'Seamless hallway drywall and custom trim', caption: 'Hallway Drywall & Casing' },
+      { src: '/assets/services/kitchen-gallery-2.webp', alt: 'Clean drywall integration around custom range hood', caption: 'Kitchen Framing & Drywall' },
+    ],
+  },
+  'backsplashes': {
+    shortTitle: 'Backsplashes',
+    title: 'Backsplashes in Tampa Bay, FL',
+    description: 'Detail that defines. Custom kitchen and bathroom tile backsplashes across Tampa Bay, FL by Volpe Renovations Co.',
+    eyebrow: '06 · Detail that defines',
+    intro: 'Laser-straight tile backsplashes for kitchens, wet bars, and vanities with tight grout joints and clean metal edges.',
+    details: 'Every corner, outlet cutout, and range-hood transition is planned before the first tile is set so the finished pattern looks intentional from every angle.',
+    bullets: [
+      'Kitchen, wet bar & vanity backsplashes',
+      'Subway, herringbone & natural stone',
+      'Full-height range hood feature walls',
+      'Schluter edge profiles & sealed grout',
+    ],
+    gallery: [
+      { src: '/assets/services/kitchen-gallery-2.webp', alt: 'White marble subway tile backsplash with brass pot filler', caption: 'Marble Subway Backsplash' },
+      { src: '/assets/services/kitchen-preview.webp', alt: 'Modern kitchen backsplash and quartz countertop transition', caption: 'Kitchen Countertop & Tile' },
+      { src: '/assets/services/bathroom-preview.webp', alt: 'Vanity wall tile and backlit mirror installation', caption: 'Vanity Feature Tile' },
+    ],
+  },
+  'accent-walls': {
+    shortTitle: 'Accent Walls',
+    title: 'Accent Walls in Tampa Bay, FL',
+    description: 'Walls with presence. Custom board-and-batten, wainscoting, shiplap, and feature walls across Tampa Bay, FL.',
+    eyebrow: '07 · Walls with presence',
+    intro: 'Custom board-and-batten, wainscoting, and architectural feature walls tailored to your room proportions.',
+    details: 'Each layout is measured around your doors, outlets, and ceiling height, then caulked, sanded, and sprayed for a built-in factory finish.',
+    bullets: [
+      'Board-and-batten & picture-frame trim',
+      'Entryway wainscoting & mudrooms',
+      'Shiplap, vertical slats & fireplace walls',
+      'Sprayed, seamless factory finish',
+    ],
+    gallery: [
+      { src: '/assets/services/full-gallery-2.webp', alt: 'Custom white wainscot paneling in a sunlit entryway', caption: 'Entryway Wainscoting' },
+      { src: '/assets/services/full-renovation-preview.webp', alt: 'Living room built-in millwork and feature wall', caption: 'Living Room Millwork' },
+      { src: '/assets/services/bathroom-gallery-2.webp', alt: 'Tiled architectural feature wall behind soaking tub', caption: 'Feature Wall Architecture' },
+    ],
+  },
+};
+
+export const areaPages = {
+  'spring-hill-renovations': {
+    title: 'Home Renovations in Spring Hill, FL',
+    description: 'Complete bathroom remodeling, kitchen remodeling, flooring, and interior finishes in Spring Hill, FL by Volpe Renovations Co.',
+    eyebrow: 'Spring Hill, FL',
+    intro: 'Based right here in Spring Hill, Volpe Renovations Co. brings personal service, transparent pricing, and high-craft remodeling to Hernando County homeowners.',
+    areas: ['Spring Hill', 'Timber Pines', 'Silverthorn', 'Springwood Estates', 'Hernando Beach'],
+  },
+  'brooksville-weeki-wachee-renovations': {
+    title: 'Home Renovations in Brooksville & Weeki Wachee, FL',
+    description: 'Bathroom remodeling, kitchen remodeling, tile, flooring, and interior finishes in Brooksville and Weeki Wachee, FL.',
+    eyebrow: 'Brooksville & Weeki Wachee',
+    intro: 'From historic Brooksville properties to waterfront homes in Weeki Wachee, our team delivers durable, design-forward renovations tailored to Florida living.',
+    areas: ['Brooksville', 'Weeki Wachee', 'Weeki Wachee Gardens', 'Masaryktown', 'Nearby Hernando communities'],
+  },
+};
